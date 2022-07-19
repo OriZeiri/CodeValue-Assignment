@@ -1,0 +1,24 @@
+.Product-Details
+{
+    grid-column: 2;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    margin: 8px 16px;
+    text-align: center;
+}
+
+
+.Product-Details form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.Product-Details form p
+{
+    text-align: left;
+}
+

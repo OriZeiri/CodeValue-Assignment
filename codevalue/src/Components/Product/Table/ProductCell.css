@@ -1,0 +1,46 @@
+:root
+{
+    --deafult-scpacing-cells : 5px;
+}
+
+.Table
+{
+   grid-column: 1;
+}
+
+.TableCell
+{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 95%;
+    height: fit-content;
+    margin: 8px 16px;
+    float: left;
+
+}
+
+.TableCell h1 {
+    font-size: 1em;
+    margin-bottom: var(--deafult-scpacing-cells);
+  }
+
+.TableCell p {
+    font-size: 1em;
+    margin-bottom: var(--deafult-scpacing-cells);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.TableCell button {
+    float: right;
+    margin-bottom: var(--deafult-scpacing-cells);
+}
+
+.TableCell img
+{
+    float: left;
+    padding: 5px;
+    width:8vw;
+}
